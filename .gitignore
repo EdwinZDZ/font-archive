@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Local environment
+.env
+.env.local
+.env.*.local
+
+# Font binaries and scan output — never distributed with this repository
+fonts/
+剪映字体提取/
+scripts/scan-result.json
+
+# Scratch screenshots from the design process
+scripts/*.png
+scripts/zoom*.ps1
+scripts/gen-render.ps1.py
+scripts/render-previews.ps1
+scripts/classify.ps1
+scripts/fix-names.mjs
+
+# Internal design draft (kept on disk only)
+DESIGN.md
+
+# Backup photo assets (kept on disk only)
+public/imgs/备*.png
+
+# Windows-local launchers for the author's machine
+launcher.ps1
+字体档案馆.vbs
+start.bat
+stop.bat
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
